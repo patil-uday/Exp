@@ -6,3 +6,13 @@ printf("A=%d B=%d",a,b);
 c=a+b;
 printf("RESULT=%d",c);
 }
+//same program using scanf
+
+#include<stdio.h>
+int main()
+int a,b,c;
+printf("entre the value of A and  B\n);
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("RESULT =%d",c);
+}
